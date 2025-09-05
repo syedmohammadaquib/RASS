@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './RegistrationPage.module.css';
 const FIXED_AMOUNT = 500;
 const EVENT_NAME = "RASS 2025";
-const COMPANY_NAME = "UGI Events";
+const COMPANY_NAME = "UIT Events";
 const RAZORPAY_KEY_ID = import.meta.env.VITE_RAZORPAY_KEY_ID;
 const BACKEND_URL = "http://localhost:3000";
 const loadScript = (src) => new Promise((resolve) => {
